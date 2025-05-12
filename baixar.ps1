@@ -1,7 +1,7 @@
-# create directory for update igo amigo maps
+# Cria um diretório para atualizações (ex: iGO Amigo Maps)
 New-Item -Path "C:\updates" -ItemType Directory -Force
 
-# mostrar user do windows
+# Mostra o usuário atual do Windows
 $usuarioAtual = $env:USERNAME
 Write-Host "Usuário atual: $usuarioAtual"
 
